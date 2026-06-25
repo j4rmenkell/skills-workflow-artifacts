@@ -30,7 +30,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/downlaod-artifact@v8
+      - uses: actions/download-artifact@v8
         with:
           name: octomatch
           path: website
